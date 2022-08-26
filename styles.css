@@ -1,0 +1,116 @@
+/* header {
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 0px;
+    color:rgba(210, 115, 7, 0.901);
+    font-weight: 900;
+} */
+
+h1 {
+    text-align: center;
+}
+
+
+#logo {
+    margin: auto;
+    padding: 100px 0px 60px 0px;
+    font-size: 76px;
+    color: rgb(253, 234, 206);
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-family: 'Train One', cursive;
+    font-family: 'Tourney', cursive;
+    /*
+    
+   */
+}
+
+
+/* CHAMADA */
+
+#chamada {
+    background-image: linear-gradient(rgba(4, 91, 142, 0.741), rgba(124, 83, 2, 0.741)),
+    url("../img/fca-main.jpg");
+    object-fit: cover;
+    height: 500px; 
+    background-position: bottom right;
+    text-align: center;
+    padding: 0px 400px;
+}
+
+#chamada h1 {
+    color: white;
+    margin: auto;
+    font-size: 35px;
+}
+
+
+/* PRONTOS */
+
+#prontos {
+    background-color: rgb(251, 251, 248);
+}
+
+
+#prontos h1 {
+    text-align: center;
+    padding: 50px 400px;
+    font-size: 40px;
+}
+
+#prontos img {
+    max-width: 120px;
+    margin: 50px;
+}
+
+#prontos-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fila {
+    justify-content: space-around;
+}
+
+
+/* TESTEMUNHAS */
+
+#testemunhas {
+    
+    background-color: rgb(234, 234, 234);
+    padding: 100px 0px;
+}
+
+.carousel {
+    height: 300px;
+    background-color: rgb(234, 234, 234);
+   /* background-color: aqua;*/
+}
+
+.carousel p {
+    color: #000;
+}
+
+.carousel button {
+    color: #000;
+}
+
+.carousel h5 {
+    margin-top: 300px;
+}
+
+.slide-info{
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* FOOTER */
+
+footer {
+      height: 500px;
+      background-color: yellow;
+}
+
+
+
