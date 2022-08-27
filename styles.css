@@ -11,10 +11,14 @@ h1 {
     text-align: center;
 }
 
+#logo-fca {
+    width: 15%;
+    padding-top: 50px;
+}
 
 #logo {
     margin: auto;
-    padding: 100px 0px 60px 0px;
+    padding: 50px 0px 60px 0px;
     font-size: 76px;
     color: rgb(253, 234, 206);
     font-family: 'Big Shoulders Inline Display', cursive;
@@ -32,7 +36,7 @@ h1 {
     background-image: linear-gradient(rgba(4, 91, 142, 0.741), rgba(124, 83, 2, 0.741)),
     url("../img/fca-main.jpg");
     object-fit: cover;
-    height: 500px; 
+    height: 700px; 
     background-position: bottom right;
     text-align: center;
     padding: 0px 400px;
@@ -172,4 +176,19 @@ footer svg {
     margin: 0px 10px;
 }
 
+
+/*PÁGINA FORMS*/
+
+#forms {
+    padding:100px;
+    background-color: rgb(249, 248, 248);
+}
+
+.campos {
+
+}
+
+form {
+    align-items: center;
+}
 
