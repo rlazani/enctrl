@@ -180,11 +180,13 @@ footer svg {
 /*PÁGINA FORMS*/
 
 #forms {
-    padding:100px;
+    padding: 100px 300px;
     background-color: rgb(249, 248, 248);
 }
 
-
+#forms h1, #forms h3  {
+    margin-bottom: 50px;
+}
 
 form {
     align-items: center;
