@@ -12,17 +12,13 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <header class="d-flex justify-content-center py-3">
-          <ul class="nav nav-pills">
-            <li class="nav-item black"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="organizacoes.html" class="nav-link">Organizações Estudantis</a></li>
-            <li class="nav-item"><a href="projetos.html" class="nav-link">Projetos Realizados</a></li>
-            <li class="nav-item"><a href="projetos-abertos.html" class="nav-link">Projetos Abertos</a></li>
-            <li class="nav-item"><a href="contato2.html" class="nav-link">Cadastro</a></li>
-          </ul>
-        </header>
-      </div>
+          <nav class="fixed-top" id="menu-navegacao">
+            <li class="nav-itens"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-itens"><a href="organizacoes.html" class="nav-link">Organizações Estudantis</a></li>
+            <li class="nav-itens"><a href="projetos.html" class="nav-link">Projetos Realizados</a></li>
+            <li class="nav-itens"><a href="projetos-abertos.html" class="nav-link">Projetos Abertos</a></li>
+            <li class="nav-itens"><a href="contato2.html" class="nav-link">Cadastro</a></li>
+          </nav>
     </header>
     <main>
         <section id="chamada">
@@ -30,7 +26,7 @@
           <h3 id="logo">Em CTRL</h3>
           <h1>Encontre soluções integradas para seus projetos com as organizações estudantis da FCA e FT da Unicamp</h1>
           <a href="contato2.html">
-            <button>Cadastre seu projeto</button>
+            <button class="button-geral">Cadastre seu projeto</button>
           </a>
         </section>
         <section id="prontos">
@@ -51,6 +47,9 @@
               <img src="img/sinergia.jpg"/>
             </div>
           </div>
+          <a href="organizacoes.html">
+            <button class="button-geral" id="btn-org">Conheça as Organizações</button>
+          </a>
         </section>
 
         <section id="testemunhas">
@@ -68,9 +67,9 @@
                 <p class="testemunha">- Maria Telles, coordenadora pedagógica</p>                
 
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="10000">
                 <p class="slide-info">O pessoal do Engenheiro sem Fronteiras entendeu rapidamente nossas demandas e trabalharam alinhados com nossos objetivos</p>
-                <p class="testemunha">- Carlos Coelho, advogado e empreendor social</p>                
+                <p class="testemunha">- Carlos Coelho, engenheiro mecânico</p>                
               </div>
               <div class="carousel-item">
                <p class="slide-info">Formulamos uma estratégia para acompanhar as demandas do bairro na prefeitura  </p>              

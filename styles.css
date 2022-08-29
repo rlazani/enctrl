@@ -24,9 +24,40 @@ h1 {
     font-family: 'Big Shoulders Inline Display', cursive;
     font-family: 'Train One', cursive;
     font-family: 'Tourney', cursive;
+}
+
+.button-geral {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    background-color: rgb(254, 247, 235);
+    margin-top: 40px;
+    color:#000;
+}    
     /*
     
    */
+
+/* MENU */
+
+#menu-navegacao {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 400px; 
+    opacity: .95;
+}
+
+.nav-itens {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+}
+
+.nav-itens:hover {
+    opacity: .8;
 }
 
 
@@ -39,22 +70,12 @@ h1 {
     height: 700px; 
     background-position: bottom right;
     text-align: center;
-    padding: 0px 400px;
+    padding: 50px 300px;
 }
 
 #chamada h1 {
     color: white;
-    margin: auto;
     font-size: 35px;
-}
-
-#chamada button {
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 50px;
-    border: 1px lightgray solid;
-    background-color: rgb(254, 247, 235);
-    margin-top: 20px;
 }
 
 
@@ -62,17 +83,18 @@ h1 {
 
 #prontos {
     background-color: rgb(253, 247, 240);
+    text-align: center;
 }
 
 
 #prontos h1 {
     text-align: center;
-    padding: 50px 400px;
+    padding: 50px 300px;
     font-size: 40px;
 }
 
 #prontos img {
-    max-width: 120px;
+    max-width: 100px;
     margin: 50px;
 }
 
@@ -86,6 +108,11 @@ h1 {
     justify-content: space-around;
 }
 
+#btn-org {
+      justify-content: center;  
+      margin-bottom: 50px;
+      background-color: #fff;
+}
 
 /* TESTEMUNHAS */
 
@@ -261,6 +288,8 @@ form {
       .black {
         color: black;
       }
+
+      
 
 
       /*PÁGINA PROJETOS ABERTOS*/
