@@ -11,42 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Big+Shoulders+Inline+Display:wght@900&family=Tourney:wght@700&family=Train+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <header class="d-flex justify-content-center py-3">
-          <ul class="nav nav-pills">
-            <li class="nav-item black"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="organizacoes.html" class="nav-link">Organizações Estudantis</a></li>
-            <li class="nav-item"><a href="projetos.html" class="nav-link">Projetos Realizados</a></li>
-            <li class="nav-item"><a href="projetos-abertos.html" class="nav-link">Projetos Abertos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Cadastro</a></li>
-          </ul>
-      </header>
+    <nav class="fixed-top" id="menu-navegacao">
+      <li class="nav-itens"><a href="index.html" class="nav-link">Home</a></li>
+      <li class="nav-itens"><a href="organizacoes.html" class="nav-link">Organizações Estudantis</a></li>
+      <li class="nav-itens"><a href="projetos.html" class="nav-link">Projetos Realizados</a></li>
+      <li class="nav-itens"><a href="projetos-abertos.html" class="nav-link">Projetos Abertos</a></li>
+      <li class="nav-itens"><a href="#" class="nav-link">Cadastro</a></li>
+    </nav>
+    <div id="img-cadastro">
+      <h1>Cadastro de Parceiros</h1>
+    </div>
     <main id="forms">
-        <h1>Cadastro de Parceiros</h1>
-        <h3>Todas as organizações estudantis da FCA terão acesso ao seu cadastro. Iremos fazer uma análise prévia e entrar em contato para propor uma solução</h3>
-        <h3>Se preferir, contate diretamente as organizações estudantis clicando <a href="">aqui</a></h3>
+        <h3>Olá, seja bem-vindo(a) ao nosso cadastro. Antes de mais nada, gostaríamos de entender qual é a demanda do seu projeto ou organização. Iremos fazer uma análise prévia e dar um retorno para propor uma solução.</h3>
+        <h3>Se preferir, contate diretamente as organizações estudantis clicando <a href="organizacoes.html">aqui</a></h3>
         <form>
-            <div class="campos">
-                <label>Seu Nome</label>
-                <input type="text">
+            <div class="mb-3 formularios">
+                <label for="exampleInputEmail1" class="form-label">Seu Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <div class="campos">
-                <label>Telefone</label>
-                <input type="text">
+            <div class="mb-3 formularios">
+              <label for="exampleInputEmail1" class="form-label">Telefone</label>
+              <input type="email" class="form-control"  aria-describedby="emailHelp">
             </div>
-            <div class="campos">
-                <label>Email</label>
-                <input type="text">
+            <div class="mb-3 formularios">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-3 formularios">
+              <label for="exampleInputEmail1" class="form-label">Nome da organização e/ou projeto</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <div class="campos">
-                <label>Seu Nome</label>
-                <input type="text">
+            <div class="mb-3 formularios">
+              <label for="exampleInputPassword1" class="form-label">Ramo da Organização</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <div class="campos">
-                <label>Nome Organização e/ou Projeto</label>
-                <input type="text">
-            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Escreva de forma detalhada o que deseja resolver</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+          
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
     </main>  
