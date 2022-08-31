@@ -150,6 +150,7 @@ h1 {
 #competencias {
     background-color: rgb(253, 247, 240);
     padding: 50px 0px;
+    text-align: center;
 }
 
 #competencias-wrap {
@@ -164,7 +165,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px lightgray solid;
-    background-color: rgb(254, 250, 243);
+    background-color: #fff;
 }
 
 .btn-fila button:hover {
@@ -305,6 +306,17 @@ form {
         height: 200px;
         color:#fff;
       }
+
+      .organizacoes-row {
+        display:flex;
+        justify-content: space-around;
+      }
+
+      .logo-organizacoes {
+        margin: auto;
+        padding: 20px;
+      }
+     
 
       /*PÁGINA PROJETOS */
 
