@@ -12,29 +12,48 @@ h1 {
 }
 
 
-#logo-fca {
+/* #logo-fca {
     width: 15%;
     padding-top: 50px;
-}
+} */
 
 #logo {
     margin: auto;
-    padding: 50px 0px 60px 0px;
+    padding: 150px 0px 60px 0px;
     font-size: 76px;
     color: rgb(253, 234, 206);
     font-family: 'Big Shoulders Inline Display', cursive;
     font-family: 'Train One', cursive;
     font-family: 'Tourney', cursive;
+    animation: showLogo 5s linear 1;
+}
+
+@keyframes showLogo {
+  0% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .button-geral {
     margin: 10px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px lightgray solid;
     background-color: rgb(254, 247, 235);
     margin-top: 40px;
-    color:#000;
+    color:rgb(86, 83, 83);
+    animation: showChamada 5s linear 1;
+    text-transform: uppercase;
+    font-weight: 600;
 }    
     /*
     
@@ -65,18 +84,37 @@ h1 {
 /* CHAMADA */
 
 #chamada {
-    background-image: linear-gradient(rgba(4, 91, 142, 0.741), rgba(124, 83, 2, 0.741)),
+    background-image: linear-gradient(rgba(4, 91, 142, 0.846), rgba(124, 83, 2, 0.846)),
     url("../img/fca-main.jpg");
     object-fit: cover;
     height: 700px; 
-    background-position: bottom right;
+    background-position: bottom ;
     text-align: center;
     padding: 50px 300px;
+    background-attachment: fixed;
 }
 
 #chamada h1 {
     color: white;
     font-size: 35px;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: showChamada 5s linear 1;
+}
+
+@keyframes showChamada {
+  0% {
+    /* transform: scale(1.3); */
+    opacity: 0;
+  }
+  50% {
+    /* transform: scale(1.5); */
+    opacity: 0.5;
+  }
+  100% {
+    /* transform: scale(1); */
+    opacity: 1;
+  }
 }
 
 
