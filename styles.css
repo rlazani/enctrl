@@ -11,6 +11,7 @@ h1 {
     text-align: center;
 }
 
+
 #logo-fca {
     width: 15%;
     padding-top: 50px;
@@ -24,9 +25,40 @@ h1 {
     font-family: 'Big Shoulders Inline Display', cursive;
     font-family: 'Train One', cursive;
     font-family: 'Tourney', cursive;
+}
+
+.button-geral {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    background-color: rgb(254, 247, 235);
+    margin-top: 40px;
+    color:#000;
+}    
     /*
     
    */
+
+/* MENU */
+
+#menu-navegacao {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 400px; 
+    opacity: .95;
+}
+
+.nav-itens {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+}
+
+.nav-itens:hover {
+    opacity: .8;
 }
 
 
@@ -39,22 +71,12 @@ h1 {
     height: 700px; 
     background-position: bottom right;
     text-align: center;
-    padding: 0px 400px;
+    padding: 50px 300px;
 }
 
 #chamada h1 {
     color: white;
-    margin: auto;
     font-size: 35px;
-}
-
-#chamada button {
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 50px;
-    border: 1px lightgray solid;
-    background-color: rgb(254, 247, 235);
-    margin-top: 20px;
 }
 
 
@@ -62,17 +84,18 @@ h1 {
 
 #prontos {
     background-color: rgb(253, 247, 240);
+    text-align: center;
 }
 
 
 #prontos h1 {
     text-align: center;
-    padding: 50px 400px;
+    padding: 50px 300px;
     font-size: 40px;
 }
 
 #prontos img {
-    max-width: 120px;
+    max-width: 100px;
     margin: 50px;
 }
 
@@ -86,6 +109,11 @@ h1 {
     justify-content: space-around;
 }
 
+#btn-org {
+      justify-content: center;  
+      margin-bottom: 50px;
+      background-color: #fff;
+}
 
 /* TESTEMUNHAS */
 
@@ -122,6 +150,7 @@ h1 {
 #competencias {
     background-color: rgb(253, 247, 240);
     padding: 50px 0px;
+    text-align: center;
 }
 
 #competencias-wrap {
@@ -136,7 +165,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px lightgray solid;
-    background-color: rgb(254, 250, 243);
+    background-color: #fff;
 }
 
 .btn-fila button:hover {
@@ -182,6 +211,10 @@ footer svg {
 #forms {
     padding: 100px 300px;
     background-color: rgb(249, 248, 248);
+}
+
+#forms h3 {
+    font-size: 22px;
 }
 
 #forms h1, #forms h3  {
@@ -262,9 +295,75 @@ form {
         color: black;
       }
 
+      #img-organizacoes {
+        margin-top: 70px;
+        background-image: linear-gradient(rgba(176, 119, 4, 0.741), rgba(176, 119, 4, 0.741)),
+        url("../img/fca-main.jpg");
+        object-fit: cover; 
+        background-position: bottom right;
+        text-align: center;
+        padding-top: 70px;
+        height: 200px;
+        color:#fff;
+      }
+
+      .organizacoes-row {
+        display:flex;
+        justify-content: space-around;
+      }
+
+      .logo-organizacoes {
+        margin: auto;
+        padding: 20px;
+      }
+     
+
+      /*PÁGINA PROJETOS */
+
+      #img-projetos {
+        margin-top: 70px;
+        background-image: linear-gradient(rgba(3, 120, 126, 0.741), rgba(3, 120, 126, 0.741)),
+        url("../img/fca-main.jpg");
+        object-fit: cover; 
+        background-position: center left;
+        text-align: center;
+        padding-top: 70px;
+        height: 200px;
+        color:#fff;
+      }
+
+
 
       /*PÁGINA PROJETOS ABERTOS*/
 
+      #img-projetos-aberto {
+        margin-top: 70px;
+        background-image: linear-gradient(rgba(46, 123, 2, 0.741), rgba(46, 123, 2, 0.741)),
+        url("../img/fca-main.jpg");
+        object-fit: cover; 
+        background-position: center right;
+        text-align: center;
+        padding-top: 70px;
+        height: 200px;
+        color:#fff;
+      }
+
       .expandir {
         margin-top: 10px;
+      }
+
+
+      /*PÁGINA CADASTRO*/
+
+      
+      #img-cadastro {
+        margin-top: 70px;
+        background-image: linear-gradient(rgba(140, 48, 2, 0.741), rgba(140, 48, 2, 0.741)),
+        url("../img/fca-main.jpg");
+        object-fit: cover; 
+        background-position: bottom left;
+        text-align: center;
+        padding-top: 70px;
+        height: 200px;
+        color:#fff;
       }
