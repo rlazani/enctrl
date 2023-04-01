@@ -65,8 +65,14 @@ h1 {
     background-color: white;
     display: flex;
     justify-content: space-around;
-    padding: 25px 400px; 
+    padding: 1.7rem 0;
     opacity: .95;
+}
+
+.menu-interno {
+  display: flex;
+  width: 80vh;
+  justify-content: space-around;
 }
 
 .nav-itens {
@@ -77,7 +83,7 @@ h1 {
 }
 
 .nav-itens:hover {
-    opacity: .8;
+    opacity: .6;
 }
 
 
@@ -90,7 +96,7 @@ h1 {
     height: 700px; 
     background-position: bottom ;
     text-align: center;
-    padding: 50px 300px;
+    padding: 5rem 10rem;
     background-attachment: fixed;
 }
 
@@ -128,13 +134,13 @@ h1 {
 
 #prontos h1 {
     text-align: center;
-    padding: 50px 300px;
+    padding: 5rem 20rem;
     font-size: 40px;
 }
 
 #prontos img {
-    max-width: 100px;
-    margin: 50px;
+    height: 7rem;
+    margin: 3rem;
 }
 
 #prontos-wrap {
@@ -144,6 +150,7 @@ h1 {
 }
 
 .fila {
+    display: flex;
     justify-content: space-around;
 }
 
@@ -152,6 +159,8 @@ h1 {
       margin-bottom: 50px;
       background-color: #fff;
 }
+
+
 
 /* TESTEMUNHAS */
 
@@ -186,7 +195,7 @@ h1 {
 /*COMPETÊNCIAS*/
 
 #competencias {
-    background-color: rgb(253, 247, 240);
+    background-color: rgb(234, 234, 234);
     padding: 50px 0px;
     text-align: center;
 }
@@ -214,7 +223,7 @@ h1 {
 
 footer {
       display: flex;
-      background-color: rgb(234, 234, 234);
+      background-color: rgb(253, 247, 240);
       height: 150px;
       flex-direction: row;
       padding: 50px 80px;
@@ -404,4 +413,31 @@ form {
         padding-top: 70px;
         height: 200px;
         color:#fff;
+      }
+
+
+      /*MEDIA QUERIES*/
+
+      @media (max-width: 1350px) {
+
+        #prontos h1 {
+             padding: 5rem 10rem;
+        }
+
+         #direitos {
+            display: none;
+      }
+
+        footer {
+           justify-content:center;
+        }
+
+
+       @media (max-width: 1050px) {
+        
+        
+             
+}
+      
+      
       }
