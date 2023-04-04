@@ -446,10 +446,11 @@ form {
 
       @media (max-width: 1905px) {
 
-        
+        /*
         #menu-navegacao {
           background-color: rgb(206, 242, 191);
         }
+        */
 
         .menu-interno {
            width: 150vh;  
@@ -461,10 +462,11 @@ form {
 
       @media (max-width: 1350px) {
 
-        
+        /*
         #menu-navegacao {
           background-color: rgb(243, 216, 96);
         }
+        */
         
 
 
