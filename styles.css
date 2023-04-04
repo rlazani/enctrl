@@ -445,11 +445,11 @@ form {
 
       @media (max-width: 1350px) {
 
-        /*
+        
         #menu-navegacao {
           background-color: rgb(243, 216, 96);
         }
-        */
+        
 
 
         #forms {
@@ -476,11 +476,19 @@ form {
 
        @media (max-width: 1050px) {
         
-        /*
+        
         #menu-navegacao {
           background-color: aqua;
         }
-        */
+
+        .btn-fila button {
+          margin: 7px;
+          padding: 10px 20px;
+          border-radius: 50px;
+          border: 1px lightgray solid;
+          background-color: #fff;
+        }
+        
 
         #forms {
         padding: 3rem 5rem;
@@ -505,13 +513,113 @@ form {
       }
 
 
+      @media (max-width: 900px) {
+        
+        
+        #menu-navegacao {
+          background-color: rgb(228, 133, 133);
+        }
+
+        .btn-fila button {
+          margin: 3px;
+          padding: 5px 10px;
+          border-radius: 50px;
+          border: 1px lightgray solid;
+          background-color: #fff;
+        }
+
+        #prontos h1 {
+          text-align: center;
+          padding: 5rem 5rem;
+          font-size: 35px;
+}
+
+        #prontos img {
+          height: 5rem;
+          margin: 2rem;
+        }
+
+          #prontos-wrap {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .button-geral {
+          margin-top: 3rem 0 0 0;
+        }
+
+
+        #chamada {
+           height: 600px; 
+           padding: 2rem 5rem;
+           background-attachment: fixed;
+        }
+
+#chamada h1 {
+    color: white;
+    font-size: 2rem;
+    max-width: 900px;
+}
+
+
+
+#menu-navegacao {
+  
+    justify-content: space-around;
+    padding: 1.2rem 0;
+    opacity: .95;
+}
+
+.menu-interno {
+  display: flex;
+  width: 100vh;
+  justify-content: space-around;
+  font-size: .85rem;
+}
+
+
+
+      }
+
       @media (max-width: 700px) {
         
-        /*
+        
         #menu-navegacao {
           background-color: rgb(233, 245, 64);
         }
-        */
+        
+        #chamada {
+        padding: 0 2rem;
+        background-attachment: fixed;
+       
+}
+
+
+         #prontos h1 {
+          text-align: center;
+          padding: 5rem 5rem;
+          font-size: 35px;
+}
+
+        #prontos img {
+          height: 5rem;
+          margin: 1rem;
+        }
+
+          
+
+#chamada h1 {
+    color: white;
+    font-size: 1.5rem;
+    max-width: 900px;
+}
+
+
+        .menu-interno {
+  
+          font-size: .70rem;
+}
 
         #forms {
         padding: 2rem 3rem;
