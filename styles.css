@@ -256,7 +256,7 @@ footer svg {
 /*PÁGINA FORMS*/
 
 #forms {
-    padding: 100px 300px;
+    padding: 7rem 16rem;
     background-color: rgb(249, 248, 248);
 }
 
@@ -334,8 +334,13 @@ form {
 
       /*PÁGINA ORGANIZAÇÕES*/
 
+      #organizacoes {
+          padding: 8rem 15rem;
+          background-color: rgb(249, 248, 248);
+      }
+
       .card {
-        margin: 30px 0px;
+        margin: 2rem 1rem;
       }
 
       .black {
@@ -418,7 +423,43 @@ form {
 
       /*MEDIA QUERIES*/
 
+
+      @media (max-width: 1600px) {
+
+       /* 
+        #menu-navegacao {
+          background-color: rgb(86, 243, 55);
+        }
+        */
+
+        #organizacoes {
+          padding: 5rem 10rem;
+      }
+
+      #forms {
+        padding: 5rem 10rem;
+        background-color: rgb(249, 248, 248);
+    }
+
+      }
+
       @media (max-width: 1350px) {
+
+        /*
+        #menu-navegacao {
+          background-color: rgb(243, 216, 96);
+        }
+        */
+
+
+        #forms {
+        padding: 3rem 7rem;
+        background-color: rgb(249, 248, 248);
+      }
+
+          #organizacoes {
+          padding: 5rem 5rem;
+      }
 
         #prontos h1 {
              padding: 5rem 10rem;
@@ -435,9 +476,53 @@ form {
 
        @media (max-width: 1050px) {
         
-        
+        /*
+        #menu-navegacao {
+          background-color: aqua;
+        }
+        */
+
+        #forms {
+        padding: 3rem 5rem;
+        background-color: rgb(249, 248, 248);
+      }
              
+        .organizacoes-row p {
+          font-size: .75rem;
+        }
+
+         #organizacoes {
+          padding: 3rem 3rem;
+         }
+
+         #organizacoes ul {
+            display: none;
+         }
+
 }
       
       
+      }
+
+
+      @media (max-width: 700px) {
+        
+        /*
+        #menu-navegacao {
+          background-color: rgb(233, 245, 64);
+        }
+        */
+
+        #forms {
+        padding: 2rem 3rem;
+        background-color: rgb(249, 248, 248);
+      }
+
+        #forms p {
+          font-size: .85rem;
+        }
+
+        .organizacoes-row {
+          flex-direction: column;
+        }
       }
