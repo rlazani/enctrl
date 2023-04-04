@@ -71,7 +71,7 @@ h1 {
 
 .menu-interno {
   display: flex;
-  width: 80vh;
+  width: 100vh;
   justify-content: space-around;
 }
 
@@ -443,6 +443,22 @@ form {
 
       }
 
+
+      @media (max-width: 1905px) {
+
+        
+        #menu-navegacao {
+          background-color: rgb(206, 242, 191);
+        }
+
+        .menu-interno {
+           width: 150vh;  
+}
+
+
+      }
+
+
       @media (max-width: 1350px) {
 
         
@@ -476,10 +492,11 @@ form {
 
        @media (max-width: 1050px) {
         
-        
+        /*
         #menu-navegacao {
           background-color: aqua;
         }
+        */
 
         .btn-fila button {
           margin: 7px;
@@ -515,10 +532,11 @@ form {
 
       @media (max-width: 900px) {
         
-        
+        /*
         #menu-navegacao {
           background-color: rgb(228, 133, 133);
         }
+        */
 
         .btn-fila button {
           margin: 3px;
@@ -579,16 +597,21 @@ form {
 }
 
 
+        .menu-interno {
+           width: 180vh;  
+        }
+
 
       }
 
       @media (max-width: 700px) {
         
-        
+        /*
         #menu-navegacao {
           background-color: rgb(233, 245, 64);
         }
-        
+        */
+
         #chamada {
         padding: 0 2rem;
         background-attachment: fixed;
